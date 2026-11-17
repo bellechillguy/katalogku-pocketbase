@@ -4,7 +4,7 @@
 ### Klik "Send Request" di atas setiap request, berurutan 1-9.
 
 # Ganti sesuai server: localhost / IP server / URL Cloudflare
-@baseUrl = http://localhost:8081/api
+@baseUrl = https://induced-heads-flexibility-contamination.trycloudflare.com/api
 # Nilai di bawah diambil otomatis dari hasil request sebelumnya
 @productId = {{list.response.body.$.items[0].id}}
 @token = {{login.response.body.$.token}}
